@@ -1,0 +1,22 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.tabSize": 2,
+  "prettier.requireConfig": false,
+  "prettier.semi": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "eslint.alwaysShowStatus": true,
+  "html.format.enable": false,
+  "htmlhint.enable": true,
+  "workbench.colorTheme": "Material Theme",
+  "workbench.iconTheme": "vscode-icons",
+  "rainbowTags.allowEverywhere": true,
+  "emmet.triggerExpansionOnTab": true,
+  "javascript.implicitProjectConfig.checkJs": true
+}
