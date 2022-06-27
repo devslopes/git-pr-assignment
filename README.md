@@ -2,19 +2,34 @@
 
 ## 📣 Getting Started
 
-1. Create a `.gitignore` file
+1. clone the repository: `git clone https://github.com/devslopes/git-pr-assignment`
+2. Create a `.gitignore` file
+3. Create a `.env.local` file and copy/paste the following into it:
+
+```
+**DUMMY DATA**
+
+CONVERTKIT_API_URL=https://api.convertkit.com/v3/
+CONVERTKIT_API_KEY=D4SkateFzVBORyLK98DIE4321
+CONVERTKIT_API_SECRET_KEY=123lY2sshhh-456NoXOne7fvH6i2-knowesJ0
+
+FORM_ID=1234567
+
+CONTENTFUL_SPACE_ID=d3-space-crocodiles
+CONTENTFUL_ACCESS_TOKEN=givejkW9NU_xGGTZxME-xUXTHE-XMgg711codesj4pN
+```
 
 ## 🛠 Requirements
 
-1. Your commits and Pull Request **MUST EXCLUDE** all files containing sensitive data and any misc files/folder.
-   i.e: files with sensitive data, misc files or folders: IDE settings, build tools (node_modules), etc.
+1. Your commits and Pull Request **MUST EXCLUDE** OS generated files/folders and files with sensitive data. (i.e: OS-specific and editor specific settings, debug logs, build tools, etc).
 
 ## 📝 Instructions
 
-1. Update the `.gitignore` file to ignore the appropriate files.
-2. Create a remote repository for this project on Github.
-3. Push this repository from the command line to Github.
-   **NOTE:**: When adding this repository to Github, you will need to replace the word `origin` with `destination`. This is because the remote repository you cloned is already using the name, `origin`.
+1. Update the `.gitignore` file to ignore OS generated files/folders and files with sensitive data
+2. As you make changes to this project, be mindful of the requirements.
+3. Create a remote repository for this project on Github.
+4. Push this repository from the command line to Github.
+   **NOTE:**: When adding this repository to Github, you will need to replace the word `origin` with `destination` (or any other word you wish to use). This is because the remote repository you cloned is already using the name, `origin`.
 
 ```
 git remote add destination <your_github_repo_url>
@@ -42,7 +57,7 @@ var BUG_TRACKING_DNS = process.env.production.local;
 h2 { color: blue; }
 ```
 
-7. Commit your changes locally. Your commit message should have a subject line and body. It should also follow the 7 commit message conventions.
-8. Push this branch to your remote repository. (This will create a new remote branch). Remember, when you push your code to use "destination", not "origin"
+7. Commit your changes locally. Your commit message should have a subject line and body. It should follow the 7 commit message convention guidelines
+8. Push this branch to your remote repository. (This will create a new remote branch). Remember, when you push your code, don't use "origin". Use `destination` (or the whatever word you chose to use when you set up the remote repo)
 9. Create a Pull Request for this branch to be merged into `main`
-10. Copy/Paste the Pull Request URL into a `.txt` file and submit that as your assignment. A Devslopes mentor will review your PR (Pull Request), comment as necessary and reject or approve your PR.
+10. To submit your assignment, put the URL of your GitHub repository in a `.txt` file, zip the file and then upload it here so we can verify the commit history is correct. A Devslopes mentor will review your PR (Pull Request), comment as necessary and reject or approve your PR
